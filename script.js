@@ -29,6 +29,5 @@ const stopChange = function () {
     btnStart.removeAttribute('disabled')
 }
 
-
 btnStart.addEventListener('click', changeColor);
 btnStop.addEventListener('click', stopChange);
